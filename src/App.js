@@ -1,5 +1,6 @@
 import './index.css';
 import data from "./data.js";
+import Navbar from './components/Navbar';
 
 function App() {
     const dataMapped = data.map(item => {
@@ -15,10 +16,14 @@ function App() {
 
     return(
         <div className="App">
-            {dataMapped}
+            <Navbar />
+
+            <div className="App">
+                {dataMapped}
+            </div>
+
         </div>
     );
-
 }
 
 export default App;
