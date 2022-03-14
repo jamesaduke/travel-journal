@@ -1,14 +1,14 @@
 import './index.css';
 import data from "./data.js";
 import Navbar from './components/Navbar';
+import Card from './components/Card';
 
 function App() {
     const dataMapped = data.map(item => {
         return (
-            <div>
-                <h1>{item.title}</h1>
-                <p>{item.description}</p>
-            </div>
+            <Card
+               {...item}
+            />
         );
 
     })
