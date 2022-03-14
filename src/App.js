@@ -18,9 +18,7 @@ function App() {
         <div className="App">
             <Navbar />
 
-            <div className="App">
-                {dataMapped}
-            </div>
+            {dataMapped}
 
         </div>
     );
