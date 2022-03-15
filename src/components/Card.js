@@ -16,7 +16,6 @@ const Card = (props) => {
             <h2 className="card--title">{props.title}</h2>
             <p className="card--date">{props.startDate} - {props.endDate}</p>
             <p className="card--description">{props.description}</p>
-
         </div>
     </div>
   )

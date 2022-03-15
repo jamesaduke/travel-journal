@@ -9,6 +9,7 @@ function App() {
             <Card
                {...item}
             />
+
         );
 
     })
@@ -19,6 +20,7 @@ function App() {
             <Navbar />
 
             {dataMapped}
+            <hr />
 
         </div>
     );
